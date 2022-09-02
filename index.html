@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://kit.fontawesome.com/a5994757ee.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <!-- navbar -->
+    <header class="main-header"> 
+        <div id="navigate" class="container mobile">
+            <a href="index.html" class="main-header-logo">Movie App</a>
+            <nav class="main-nav">
+                <ul class="main-nav-links">
+                    <li class="main-nav-link"><a href="#">Movies</a></li>
+                    <li class="main-nav-link"><a href="#">Tv Series</a></li>
+                    <li class="main-nav-link"><a href="register.html">Sign Up</a></li>
+                    <li class="main-nav-link"><a href="#" onclick="displayNav()"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section id="main-img">
+           <div class="content">
+            <h1>Welcome to Movie App</h1><br>
+            <h3>Lorem ipsum dolor, sit amet consectetur </h3>
+           </div>
+        </section>
+        <section id="main-section">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mainTitle">Lorem ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, quam.</p>
+                </div>
+                <br>
+
+                <div class="row col-3">
+                    <div class="row-box ">
+                        <i class="fa-solid fa-right-to-bracket fa-2x"></i>
+                        <h3>Sign Up</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi accusamus eligendi officia totam est.</p>
+                    </div>
+                </div>
+                <div class="row col-3">
+                    <div class="row-box">
+                        <i class="fa-solid fa-bolt fa-2x"></i>
+                        <h3>Choose your plan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi accusamus eligendi officia totam est.</p>
+                    </div>
+                </div>
+                <div class="row col-3">
+                    <div class="row-box ">
+                        <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                        <h3>Feel Happy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi accusamus eligendi officia totam est.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="features">
+            <div class="row">
+                <div class="col-2 featuresLeft">
+                    
+                </div><div class="col-2 featuresRigth">
+                    <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, possimus nisi? Mollitia, quidem sint sapiente minus quam possimus debitis accusamus.</p>
+                    <a href="#" >See More</a>
+                </div>
+            </div>
+
+        </section>
+        <section id="plans">
+            <h2 class="sectionTitle">Choose Your Plan</h2>
+            <div class="container ">
+               <div class="row">
+                    <div class="plan col-3">
+                        <div class="inner-plan">
+                            <h2>Free Plan</h2>
+                            <h3>0/month</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div>
+                                <button>Choose</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan col-3 chosenPlan">
+                        <div class="inner-plan recommended ">
+                            <h2 class="badge">Recommended</h2>
+                            <h2>Basic</h2>
+                            <h3>9/month</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div>
+                                <button>Choose</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan col-3">
+                        <div class="inner-plan">
+                            <h2>Premium</h2>
+                            <h3>19/month</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div>
+                                <button>Choose</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="counters">
+            <div class="row counter">
+                <div class="col-3">
+                    <span class="counterItem">999</span>
+                    <h4>Movies</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counterItem">555</span>
+                    <h4>Tv Series</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counterItem">666</span>
+                    <h4>Users</h4>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="movies">
+            <h2 class="sectionTitle">Latest Movies & Tv Shows</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 cardContainer">
+                        <div class="card">
+                            <img class="cardImg" src="./img/img1.png" alt="" >
+                            <div class="cardBody">
+                                <h2>
+                                    Harry Potter
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci dolores </p>
+                                <p><button>Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 cardContainer">
+                        <div class="card">
+                            <img class="cardImg" src="./img/img2.jpg" alt="" >
+                            <div class="cardBody">
+                                <h2>
+                                    Harry Potter
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci dolores </p>
+                                <p><button>Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 cardContainer">
+                        <div class="card">
+                            <img class="cardImg" src="./img/img3.jpg" alt="" >
+                            <div class="cardBody">
+                                <h2>
+                                    Harry Potter
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil adipisci dolores </p>
+                                <p><button>Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul class="footerLinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="socialLinks">
+                        <li><a href="#" class="fab fa-facebook "></a></li>
+                        <li><a href="#" class="fab fa-twitter "></a></li>
+                        <li><a href="#" class="fab fa-instagram "></a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <a href="#body" id="goTop">
+        <i class="fa-solid fa-angles-up fa-3x"></i>
+    </a>
+    <script>
+        function displayNav(){
+            var link = document.getElementById("navigate") ;
+            link.classList.toggle("mobile");
+        }
+    </script>
+</body>
+</html>

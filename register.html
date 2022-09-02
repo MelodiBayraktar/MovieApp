@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="https://kit.fontawesome.com/a5994757ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header"> 
+        <div class="container">
+            <a href="index.html" class="main-header-logo">Movie App</a>
+            <nav class="main-nav">
+                <ul class="main-nav-links">
+                    <li class="main-nav-link"><a href="#">Movies</a></li>
+                    <li class="main-nav-link"><a href="#">Tv Series</a></li>
+                    <li class="main-nav-link"><a href="index.html">Log Out</a></li>
+                    <li class="main-nav-link"><a href="#" onclick="displayNav()"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="signUp">
+        <h1>Create An Account</h1>
+        <form class="signUpForm">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            
+            <button type="submit" class="btn">Sign Up</button>
+
+        </form>
+       
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul class="footerLinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="socialLinks">
+                        <li><a href="#" class="fab fa-facebook "></a></li>
+                        <li><a href="#" class="fab fa-twitter "></a></li>
+                        <li><a href="#" class="fab fa-instagram "></a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <a href="#body" id="goTop">
+        <i class="fa-solid fa-angles-up fa-3x"></i>
+    </a>
+</body>
+</html>
